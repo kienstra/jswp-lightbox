@@ -62,8 +62,8 @@ ul {
 }
 
 #video,
-#drag-and-drop-demo,
-#lightbox-demo {
+#drag-and-drop-demo {
+
   display: none;
 }
 
@@ -114,6 +114,15 @@ ul {
 
 #lightbox-demo img.wapuu {
   width: 200px;
+}
+
+#lightbox-demo .gallery img {
+  width: 150px;
+  height: auto;
+}
+
+#lightbox-demo .gallery img:hover {
+	cursor: pointer;
 }
 
 #overlay {
