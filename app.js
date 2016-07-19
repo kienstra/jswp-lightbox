@@ -50,5 +50,3 @@ openLightbox = function openLightbox( e ) {
 };
 
 gallery.addEventListener( 'click', openLightbox );
-
-lightboxDemo.style.display = 'block';
